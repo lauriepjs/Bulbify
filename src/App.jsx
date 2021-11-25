@@ -12,11 +12,11 @@ function App() {
     <h1>La Team Disney !</h1>
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={Home} />
-        <Route path="/organise" element={Organize} />
-        <Route path="/rejoins" element={Join} />
-        <Route path="/joue" element={Play} />
-        <Route path="/tuto" element={Tuto} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/organise" element={<Organize />} />
+        <Route path="/rejoins" element={<Join />} />
+        <Route path="/joue" element={<Play />} />
+        <Route path="/tutoriel" element={<Tuto />} />
       </Routes>
     </BrowserRouter>
     </>
