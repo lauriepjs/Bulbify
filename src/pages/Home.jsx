@@ -16,6 +16,9 @@ const Home = () => {
           <NavLink exact to="/rejoins">
             <button className="buttonvalide"> Je rejoins </button>
           </NavLink>
+          <NavLink exact to="/tutoriel">
+            <button className="buttonTuto">Tutoriel</button>
+          </NavLink>
         </div>
       </div>
     </div>
