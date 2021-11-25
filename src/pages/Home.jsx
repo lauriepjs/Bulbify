@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import { NavLink } from "react-router-dom";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div className="home">
-      <Navigation />
       <div className="buttons">
         <div className="organise">
           <NavLink exact to="/organise">
