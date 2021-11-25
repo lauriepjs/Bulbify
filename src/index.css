@@ -13,7 +13,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #0E172A;
+  background-color: #0e172a;
 }
 .home {
   display: flex;
@@ -25,7 +25,7 @@
   justify-content: center;
   padding-top: 50px;
 }
-.organisejoin{
+.organisejoin {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -59,7 +59,7 @@ input {
   width: 200px;
   border: 0;
 }
-.buttontuto{
+.buttontuto {
   background-color: none;
   color: #f7f9ec;
   border: 0;
@@ -68,4 +68,17 @@ input {
   margin-top: 5cm;
   font-size: 16px;
   text-decoration: underline;
+}
+.organise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nomsoiréeBlame{
+  display: flex;
+  margin-top: 40px;
+}
+.nombreBlame{
+  display: flex;
+  margin-top: 40px;
 }

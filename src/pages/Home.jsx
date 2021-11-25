@@ -1,7 +1,5 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import { NavLink } from "react-router-dom";
-import Header from "../components/Header";
 
 const Home = () => {
   return (
@@ -11,7 +9,6 @@ const Home = () => {
           <NavLink exact to="/organise">
             <button className="buttonvalide"> J'organise </button>
           </NavLink>
-        
           <NavLink exact to="/rejoins">
             <button className="buttonvalide"> Je rejoins </button>
           </NavLink>
