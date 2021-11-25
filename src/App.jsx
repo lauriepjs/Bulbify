@@ -9,7 +9,7 @@ import Tuto from "./pages/tuto";
 function App() {
   return (
     <>
-    <h1>La Team Disney</h1>
+    <h1>La Team Disney !</h1>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={Home} />
