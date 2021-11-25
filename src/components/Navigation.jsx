@@ -7,6 +7,18 @@ const Navigation = () => {
       <NavLink exact to="/">
         Accueil
       </NavLink>
+
+      <NavLink exact to="/organise">
+        J'organise
+      </NavLink>
+      <NavLink exact to="/rejoins">
+        Je rejoins
+      </NavLink>
+
+      <NavLink exact to="/joue">
+        Je joue
+      </NavLink>
+
       <NavLink exact to="/tutoriel">
         Tutoriel
       </NavLink>

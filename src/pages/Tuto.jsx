@@ -24,6 +24,8 @@ const Tuto = () => {
         Aussi, si un son n'est vraiment pas du goût de l'un des participants, il
         aura la possibilité de voter pour passer à la musique suivante (Courage
         aux fans de K-Pop...).
+
+     
       </p>
     </div>
   );
