@@ -4,7 +4,10 @@ import Navigation from "../components/Navigation";
 const Tuto = () => {
   return (
     <div className="tutoriel">
+
+
       <Navigation />
+
       <h1 className="h1">Première fois sur le site ?</h1>
       <h2 className="h2">N'aie pas d'inquiètudes ! C'est très simple.</h2>
       <p className="p">
@@ -24,8 +27,6 @@ const Tuto = () => {
         Aussi, si un son n'est vraiment pas du goût de l'un des participants, il
         aura la possibilité de voter pour passer à la musique suivante (Courage
         aux fans de K-Pop...).
-
-     
       </p>
     </div>
   );
