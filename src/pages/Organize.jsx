@@ -5,7 +5,11 @@ const Organize = () => {
   return (
     <div className="organise">
       <Navigation />
-      <h1>Bonjour</h1>
+      <h1>Hello !</h1>
+      <p>La liste des participants :</p>
+
+
+    
     </div>
   );
 };
