@@ -5,6 +5,7 @@ const Organize = () => {
     return (
         <div>
             <Navigation />
+            <h1></h1>
         </div>
     );
 };
