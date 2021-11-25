@@ -81,3 +81,31 @@ input {
   display: flex;
   margin-top: 40px;
 }
+/* Page tutoriel */
+.tutoriel {
+  margin: auto;
+  margin-top: 50px;
+  background-color: #bb3e51;
+  color: #f7f9ec;
+  border-radius: 20px;
+  width: 85%;
+  padding: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 300px;
+}
+.h1tuto {
+  margin-top: 25px;
+  color: #f7f9ec;
+  text-align: center;
+  background-color: #bb3e51;
+}
+.h2tuto {
+  margin-top: 25px;
+  color: #f7f9ec;
+  text-align: center;
+  background-color: #bb3e51;
+}
+h2 {
+  font-size: 16px;
+}
