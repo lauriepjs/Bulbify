@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 
 const Organize = () => {
   return (
-    <div>
+    <div className="organise">
       <Navigation />
       <h1>Bonjour</h1>
     </div>
