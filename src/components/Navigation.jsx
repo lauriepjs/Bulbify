@@ -13,6 +13,7 @@ const Navigation = () => {
       <NavLink exact to="/rejoins">
         Je rejoins
       </NavLink>
+
       <NavLink exact to="/joue">
         Je joue
       </NavLink>

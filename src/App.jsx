@@ -1,15 +1,16 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import Home from "./pages/Home";
-import Organize from "./pages/organize";
+import Organize from "./pages/Organize";
 import Join from "./pages/Join";
 import Play from "./pages/play";
 import Tuto from "./pages/tuto";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-    <h1>La Team Disney !</h1>
+    <Header />
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
