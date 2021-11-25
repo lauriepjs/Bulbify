@@ -7,7 +7,6 @@
   --text-color: #f7f9ec;
   --text-font: "Comfortaa", cursive;
 }
-
 * {
   text-decoration: none;
   list-style: none;
@@ -25,7 +24,7 @@
   justify-content: center;
   padding-top: 50px;
 }
-.buttons {
+.organisejoin{
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -40,7 +39,6 @@
   width: 300px;
   height: 60px;
 }
-
 .jerejoins {
   display: flex;
   flex-direction: column;
@@ -57,5 +55,9 @@ input {
   border-radius: 20px;
   height: 30px;
   width: 200px;
+  border: 0;
+}
+.buttontuto{
+  background-color: #f7f9ec;
   border: 0;
 }
