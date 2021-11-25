@@ -13,8 +13,8 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-    <Header />
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/organise" element={<Organize />} />

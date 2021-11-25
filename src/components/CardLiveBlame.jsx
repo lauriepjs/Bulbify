@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CardLiveBlame = ({ album, key }) => {
+const CardLiveBlame = ({}) => {
     return (
         <li className="card">
             <div>
-            <h1>{album.title}</h1>
+                 <img src="src/assets/logobulbify2.png" alt="logo homme qui danse" />
             </div>
         </li>
     );
