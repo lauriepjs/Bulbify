@@ -38,6 +38,7 @@
   border: 0;
   width: 300px;
   height: 60px;
+  font-size: 25px;
 }
 .jerejoins {
   display: flex;
@@ -58,6 +59,12 @@ input {
   border: 0;
 }
 .buttontuto{
-  background-color: #f7f9ec;
+  background-color: none;
+  color: #f7f9ec;
   border: 0;
+  width: 20px;
+  margin-left: 3.5cm;
+  margin-top: 5cm;
+  font-size: 16px;
+  text-decoration: underline;
 }
