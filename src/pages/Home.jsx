@@ -14,7 +14,7 @@ const Home = () => {
             <button className="buttonvalide"> Je rejoins </button>
           </NavLink>
           <NavLink exact to="/tutoriel">
-            <button className="buttontuto">Tutoriel</button>
+            <button className="buttontuto">Tutoriel que ça marche</button>
           </NavLink>
         </div>
       </div>

@@ -8,7 +8,9 @@ const Tuto = () => {
 
       <Navigation />
 
+
       <h1 className="h1 tuto">Première fois sur le site ?</h1>
+
       <h2 className="h2 tuto">N'aie pas d'inquiètudes ! C'est très simple.</h2>
 
       <p className="p">

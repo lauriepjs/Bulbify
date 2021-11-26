@@ -4,6 +4,10 @@ import React from "react";
 const Header = () => {
 
   return (
+
+    <div className="logo">
+      <img src="src/assets/logobulbify2.png" alt="logo" />
+     </div>
     <div>
     <nav role="navigation">
     <div id="menuToggle">
@@ -22,9 +26,6 @@ const Header = () => {
       </ul>
     </div>
   </nav>
-  <div className="logo">
-      <img src="src/assets/logobulbify2.png" alt="logo bulbify" />
-    </div>
   </div>
   );
 };
