@@ -23,7 +23,7 @@ const Organize = () => {
           <input placeholder="https//soiree30ansleo " />
         </div>
         <NavLink exact to="/joue">
-          <button className="buttonvalide"> c'est validé </button>
+          <button className="buttonvalide"> C'est ok</button>
         </NavLink>
       </div>
     </div>

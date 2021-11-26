@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
 :root {
   font-size: 16px;
   --back-color: #348d9d;
   --button-color: #bb3e51;
   --text-color: #f7f9ec;
-  --text-font: "Comfortaa", cursive;
 }
 * {
   text-decoration: none;
@@ -13,6 +12,7 @@
   padding: 0;
   margin: 0;
   background-color: #0e172a;
+  font-family: 'Archivo', sans-serif;
 }
 .home {
   display: flex;
@@ -80,7 +80,7 @@ input {
 /* Page tutoriel */
 .tutoriel {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #bb3e51;
   color: #f7f9ec;
   border-radius: 20px;
@@ -104,6 +104,7 @@ input {
 }
 h2 {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 #menuToggle {
   display: block;
@@ -198,6 +199,7 @@ h2 {
 .blamebutton {
   border: none;
   background-color: #bb3e51;
+  color: #f7f9ec;
   height: 100px;
   width: 100px;
   border-radius: 100%;
@@ -209,6 +211,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #f7f9ec;
 }
 .nomsoiréeBlame{
   margin-top: 25px;
@@ -218,5 +221,8 @@ h2 {
 }
 .lien{
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+}
+input{
+  margin-top: ;
 }
