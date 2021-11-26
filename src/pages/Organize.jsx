@@ -18,6 +18,10 @@ const Organize = () => {
           <h2>Nombre blame / pers : </h2>
           <input placeholder=" .......... " />
         </div>
+        <div className="lien">
+          <h2>Lien </h2>
+          <input placeholder="https//soiree30ansleo " />
+        </div>
       </div>
     </div>
   );
