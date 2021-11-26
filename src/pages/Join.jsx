@@ -23,6 +23,7 @@ const Join = () => {
         <input  className="donneartiste" placeholder=" Donne moi un artiste !" />
 
         </form>
+
       </div>
       <div className="buttonvalidemusique">
         <NavLink exact to="/joue">

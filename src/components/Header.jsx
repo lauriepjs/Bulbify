@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+
   return (
     <div>
       <div>
@@ -36,7 +37,10 @@ const Header = () => {
           <img src="src/assets/logobulbify2.png" alt="logo" />
         </NavLink>
       </div>
+
     </div>
+  </nav>
+  </div>
   );
 };
 export default Header;
