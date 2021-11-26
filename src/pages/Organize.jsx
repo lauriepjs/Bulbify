@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../components/Navigation";
 
 const Organize = () => {
+
   return (
     <div className="organise">
       <Navigation />
