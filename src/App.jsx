@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Organize from "./pages/Organize";
@@ -10,16 +9,16 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-    <Header />
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/organise" element={<Organize />} />
-        <Route path="/rejoins" element={<Join />} />
-        <Route path="/joue" element={<Play />} />
-        <Route path="/tutoriel" element={<Tuto />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/organise" element={<Organize />} />
+          <Route path="/rejoins" element={<Join />} />
+          <Route path="/joue" element={<Play />} />
+          <Route path="/tutoriel" element={<Tuto />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
