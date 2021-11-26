@@ -1,23 +1,17 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router";
-import Join from './Join';
 
 function Taste() {
-    let { id } = useParams();
-
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     axios
-      .get(`https://tastedive.com/api/similar?q=${id}`)
-      .then((res) => setData(res.data.results));
-  });
-
+      .get(`https://magical-it-works.jsrover.wilders.dev/https://tastedive.com/api/similar?q=Adele&info=1`)
+      .then((res) => console.log(res.data.Similar.Results));
+  }, []);
   return (
     <>
-      {data.map((e) => 
-        <p>{e.name}</p>)}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hLQl3WQQoQ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen></iframe>
     </>
   );
 

@@ -1,8 +1,14 @@
-import React from "react";
 import Navigation from "../components/Navigation";
 import { NavLink } from "react-router-dom";
+import { useState } from 'react';
 
 const Join = () => {
+  const [searchArtist, setSearchArtist] = useState('');
+
+  const handleSearchArtist = (e) => {
+    setSearchArtist(e.target.value);
+  }
+
   return (
     <div className="jerejoins">
       <Navigation />
@@ -11,7 +17,7 @@ const Join = () => {
         <h3>Propose ton son !</h3>
       </div>
       <div className="input">
-        <input placeholder="Tape ton son .." />
+        <input placeholder="Tape ton son .." value={searchArtist} onChange={handleSearchArtist}/>
       </div>
       <div className="pochetteAlbum">
         <p>photo pochette album</p>

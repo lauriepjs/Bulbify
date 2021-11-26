@@ -20,7 +20,7 @@ const Organize = () => {
         </div>
         <div className="lien">
           <h2>Lien </h2>
-          <input placeholder="https//soiree30ansleo " />
+          <input placeholder="http://soiree30ansleo " />
         </div>
       </div>
     </div>
