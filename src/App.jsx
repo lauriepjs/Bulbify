@@ -6,6 +6,7 @@ import Join from "./pages/Join";
 import Play from "./pages/play";
 import Tuto from "./pages/tuto";
 import Header from "./components/Header";
+import Taste from './components/Taste';
 
 function App() {
   return (
