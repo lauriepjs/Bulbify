@@ -5,7 +5,7 @@ const Tuto = () => {
   return (
     <div className="tutoriel">
       <Navigation />
-      <h1 className="h1 tuto">Première fois sur le site ?</h1>
+      <h1 className="h1 tuto">Première fois sur le site ??</h1>
       <h2 className="h2 tuto">N'aie pas d'inquiètudes ! C'est très simple.</h2>
       <p className="p">
         Marre de ces soirées où c'est toujours la même personne qui passe sa

@@ -14,9 +14,9 @@ const Join = () => {
         <input placeholder="Tape ton son .." />
       </div>
       <div className="pochetteAlbum">
-        <p>photo pochettes album</p>
-        <p>photo pochettes album</p>
-        <p>photo pochettes album</p>
+        <p>photo pochette album</p>
+        <p>photo pochette album</p>
+        <p>photo pochette album</p>
       </div>
       <div className="buttonvalidemusique">
         <NavLink exact to="/joue">
