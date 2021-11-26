@@ -19,14 +19,14 @@ const Join = () => {
       </div>
       <div className="inputs">
         <form action="" method="get" onSubmit={handleSearchArtist}>
-        <TextField id="outlined-basic" label="Donne moi un artiste!" variant="outlined" />
-        <TextField id="outlined-basic" label="Aller un autre !" variant="outlined" />
-        <TextField id="outlined-basic" label="Un dernier pour la route !" variant="outlined" />
+
+        <input  className="donneartiste" placeholder=" Donne moi un artiste !" />
+
         </form>
       </div>
       <div className="buttonvalidemusique">
         <NavLink exact to="/joue">
-          <button className="buttonvalide"> Je valide ma liste</button>
+          <button className="buttonvalide" onSubmit={handleSearchArtist}> Je valide ma liste</button>
         </NavLink>
       </div>
     </div>
