@@ -2,11 +2,14 @@ import React from "react";
 import Navigation from "../components/Navigation";
 
 const Play = () => {
-    return (
-        <div>
-            <Navigation />
-        </div>
-    );
+  return (
+    <div className="play">
+      <Navigation />
+      <div className="divblame">
+        <button className="blamebutton">BLAME</button>
+      </div>
+    </div>
+  );
 };
 
 export default Play;
