@@ -1,26 +1,52 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router";
-import Join from './Join';
+import Join from '../pages/Join';
 
 function Taste() {
-    let { id } = useParams();
+	const [data, setData] = useState([]);
+	const artist = "Adele";
 
-  const [data, setData] = useState(null);
+	useEffect(() => {
+		axios
+			.get(
+				`https://magical-it-works.jsrover.wilders.dev/https://tastedive.com/api/similar?q=${artist}&info=1`
+			)
+			.then((res) => setData(res.data.Similar.Results));
+	}, []);
 
-  useEffect(() => {
-    axios
-      .get(`https://tastedive.com/api/similar?q=${id}`)
-      .then((res) => setData(res.data.results));
-  });
+	const [url, setUrl] = useState("https://www.youtube-nocookie.com/embed/hTWKbfoikeg");
 
-  return (
-    <>
-      {data.map((e) => 
-        <p>{e.name}</p>)}
-    </>
-  );
+	const handleChangeUrl = () => {
+		const nbr = Math.floor(Math.random() * (data.length - 1) + 1);
+		setUrl(data[nbr].yUrl);
+	};
+	let listOfurls = "";
+	data.map((song) => {
+		listOfurls += song.yID + ";";
+	});
 
+	console.log(listOfurls);
+	if (data) {
+		return (
+			<div className='track'>
+				<iframe
+					width='90%'
+					height='300vh'
+					src={url}
+					title='YouTube video player'
+					frameBorder='2'
+					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+					playlist={listOfurls}
+					allowFullScreen></iframe>
+				<button className="next-button" onClick={handleChangeUrl}>Musique suivante</button>
+				<div className='divblame'>
+					<button className='blamebutton'>BLAME</button>
+				</div>
+			</div>
+		);
+	} else {
+		return null;
+	}
 }
 
 export default Taste;
