@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import { NavLink } from "react-router-dom";
 
 const Organize = () => {
+
   return (
     <div className="organise">
       <Navigation />
@@ -20,7 +21,7 @@ const Organize = () => {
         </div>
         <div className="lien">
           <h2>Lien </h2>
-          <input placeholder="https//soiree30ansleo " />
+          <input placeholder="http://soiree30ansleo " />
         </div>
         <NavLink exact to="/joue">
           <button className="buttonvalide"> C'est ok</button>

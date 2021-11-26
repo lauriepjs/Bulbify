@@ -19,7 +19,9 @@ const Join = () => {
       </div>
       <div className="inputs">
         <form action="" method="get" onSubmit={handleSearchArtist}>
+
         <input  className="donneartiste" placeholder=" Donne moi un artiste !" />
+
         </form>
       </div>
       <div className="buttonvalidemusique">
