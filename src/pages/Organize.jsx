@@ -11,12 +11,16 @@ const Organize = () => {
           <h1>Ce soir c'est chez : Léo</h1>
         </div>
         <div className="nomsoiréeBlame">
-          <h2>Nom soirée : </h2>
+          <h2>Nom soirée  </h2>
           <input placeholder=" Soirée 30 ans de Léo..." />
         </div>
         <div className="nombreBlame">
-          <h2>Nombre blame / pers : </h2>
+          <h2>Nombre blame / pers  </h2>
           <input placeholder=" .......... " />
+        </div>
+        <div className="lien">
+          <h2>Lien </h2>
+          <input placeholder="http://soiree30ansleo " />
         </div>
       </div>
     </div>

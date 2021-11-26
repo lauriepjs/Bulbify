@@ -7,6 +7,7 @@ const Navigation = () => {
       <NavLink exact to="/">
         Accueil
       </NavLink>
+<<<<<<< HEAD
 
       <NavLink exact to="/organise">
         J'organise
@@ -23,6 +24,8 @@ const Navigation = () => {
         Tutoriel
       </NavLink>
       
+=======
+>>>>>>> 9a932d99ab08fdc00d3dd63c3b11ab56045a0620
     </div>
   );
 };
