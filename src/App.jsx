@@ -16,8 +16,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/organise" element={<Organize />} />
-          <Route path="/rejoins" element={<Taste />} />
-          <Route path="/joue" element={<Play />} />
+          <Route path="/rejoins" element={<Join />} />
+          <Route path="/joue" element={<Taste />} />
           <Route path="/tutoriel" element={<Tuto />} />
         </Routes>
       </BrowserRouter>

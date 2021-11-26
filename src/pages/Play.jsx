@@ -6,7 +6,7 @@ const Play = () => {
     return (
         <div>
             <Navigation />
-            {/* <Taste id={"Adele"}/> */}
+            <Taste />
         </div>
     );
 };
